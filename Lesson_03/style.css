@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+}
+
+.pMain {
+    font-size: 16;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.h1Main {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.h2Main {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.h3Main {
+    font-size: 36px;
+    text-align: center;
+}
+
+.h4Main {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.inputTextareaMain {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.bottonTextArea {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2); 
+    border-radius: 10px;
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center; 
+    color: #FFFFFF; 
+    text-transform: uppercase;
+}
+
+
+
