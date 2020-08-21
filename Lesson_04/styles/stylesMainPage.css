@@ -1,0 +1,182 @@
+.headerPage {
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    left: 0px;
+    top: 30px;
+
+    border: 5px solid #A50A0A;
+    box-sizing: border-box;
+}
+
+.topLine {
+    position: absolute;
+    width: 1140px;
+    height: 55px;
+    left: 0;
+    top: 27px;
+
+    border: 3px solid #05944F;
+    box-sizing: border-box;
+}
+
+.box {
+    position: absolute;
+    width: 1140px;
+    height: 759px;
+    left: 113px;
+    top: 0px;
+
+    border: 4px solid #7E37F1;
+}
+
+.title {
+    position: absolute;
+    width: 554px;
+    height: 350px;
+    left: 113px;
+    top: 149px;
+
+    border: 3px solid #13CDD9;
+    box-sizing: border-box;
+}
+
+.mainAreaTop {
+    position: absolute;
+    width: 1140px;
+    height: 648px;
+    left: 113px;
+    top: 811px;
+
+    border: 4px solid #7E37F1;
+    box-sizing: border-box;
+}
+
+.titlesBloc {
+    position: absolute;
+    width: 1138px;
+    height: 528px;
+    left: 0;
+    /* top: 0; */
+
+    border: 3px solid #058228;
+    box-sizing: border-box;
+}
+
+.TitleTileBox{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.leftTileBox{
+    position: absolute;
+    width: 359px;
+    height: 480px;
+    left: 0;
+    top: 0;
+
+    border: 3px solid #D019BE;
+    box-sizing: border-box;
+}
+
+.centerTileBox {
+    position: absolute;
+    width: 358px;
+    height: 480.03px;
+    left: 380px;
+    top: 0;
+
+    background: #FFFFFF;
+    /* shadow1 */
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.rightTileBox {
+    position: absolute;
+    width: 359px;
+    height: 480px;
+    left: 770px;
+    top: 0;
+
+    background: #FFFFFF;
+    /* shadow1 */
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.smartHomeBloc {
+    position: absolute;
+    width: 1140px;
+    height: 480px;
+    left: 113px;
+    top: 1675px;
+
+    background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
+}
+
+.mobile {
+    position: absolute;
+    width: 554px;
+    height: 417px;
+    left: 113px;
+    top: 2187px;
+
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+}
+
+.CarRepetishion {
+    position: absolute;
+    width: 554px;
+    height: 417px;
+    left: 699px;
+    top: 2187px;
+
+    background: linear-gradient(306.48deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%);
+    border-radius: 10px;
+}
+
+.footer {
+    position: absolute;
+    width: 1366px;
+    height: 657px;
+    left: 0px;
+    top: 2716px;
+
+    /* blue_02 */
+    background: #316099;
+    border: 6px solid #DD2121;
+    box-sizing: border-box;
+}
+
+.topMainBloc {
+    position: absolute;
+    width: 1140px;
+    height: 383px;
+    left: 113px;
+    top: 0;
+    
+    border: 5px solid #F5F8D4;
+    box-sizing: border-box;
+}
+
+.bottomMainBloc {
+    position: absolute;
+    width: 1139px;
+    height: 253px;
+    left: 113px;
+    top: 385px;
+
+    border: 4px solid #CAFFBD;
+    box-sizing: border-box;
+}
