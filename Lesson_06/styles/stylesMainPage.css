@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 48px 113px;
+}
+
+.topLine {
+    display: flex;
+    align-items: center;
+    margin: 34px 113px;
+    justify-content: space-between;
+}
+
+.title {
+    height: 549px;
+    display: flex;
+    flex-grow: 1;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Goshichi_no_kiri_inverted-1.svg/560px-Goshichi_no_kiri_inverted-1.svg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.h1Main {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.imgTit {
+    height: 100%;
+}
+
+.TitleTileBox{
+
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 20px;
+}
+
+.titlesBloc {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imgTitle {
+    width: 30%;
+}
+
+.smartHomeBloc > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mobileAndCarRepetishionBlocs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 32px 20px;
+}
+
+.mobile .CarRepetishion{
+    border-radius: 10px;
+}
+
+.footer {
+    font-family: Roboto;
+    background: #316099;
+}
+
+.topMainBloc {
+    margin: auto 113px;
+}
+
+.bottomMainBloc {
+    margin: auto 113px;
+}
+
+.h3Footer {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 58px ;
+    padding-bottom: 45px;
+}
+
+.pMainFooter {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    margin: 51px 42px;
+}
+
+.list > li {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.Rights {
+    margin: 16px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-bottom: 112px;
+}
