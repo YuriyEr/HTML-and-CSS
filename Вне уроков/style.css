@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first > div {
+    border: 2px solid grey;
+    flex-grow: 1; /* default 0 */
+    width: 100%;
+    margin: 10px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.secondblock > div {
+    border: 2px solid grey;
+    margin: 10px;
+}
+
+.secondblock {
+    display: flex;
+    flex-direction: row;
+}
+
+.third {
+    flex-grow: 1;
+}

@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.conteiner {
+    margin: 48px 113px;
+}
+
+.topLine {
+    display: flex;
+    align-items: center;
+    margin: 34px 113px;
+    justify-content: space-between;
+}
+
+.title {
+    height: 549px;
+    display: flex;
+    flex-grow: 1;
+    background-image: url(https://avatars.mds.yandex.net/get-zen_doc/1112142/pub_5c582ef316b33b00af192fc0_5c582f8c0f810000ad8caf89/scale_1200);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.h1Main {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.imgTit {
+    height: 100%;
+}
+
+.TitleTileBox{
+
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 20px;
+}
+
+.titlesBloc {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imgTitle {
+    width: 30%;
+}
+
+.smartHomeBloc > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mobileAndCarRepetishionBlocs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px auto;
+    width: 100%;
+}
+
+.imgLit {
+    width: 48%;
+}
+
+.footer {
+    font-family: Roboto;
+    background: #316099;
+}
+
+.topMainBloc {
+    margin: auto 113px;
+}
+
+.bottomMainBloc {
+    margin: auto 113px;
+}
+
+.h3Footer {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 58px ;
+    padding-bottom: 45px;
+}
+
+.pMainFooter {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    margin: 51px 42px;
+}
+
+.list > li {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.Rights {
+    margin: 16px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-bottom: 112px;
+}
+
+@media (max-width: 768px) {
+    .conteiner {
+        margin: 64px 32px;
+    }
+
+    .topLine {
+        margin: 36px 36px;
+    }
+
+    .list {
+        flex-direction: column;
+        list-style: none;    
+    }
+
+    .list > li {
+        text-align: left;
+    }
+}
+
+@media (max-width: 375px) {
+    .conteiner {
+        margin: 32px;
+    }
+    .title {
+        height: auto;
+        background-image: none;
+    }
+
+    .h1Main {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        width: 100%;
+    }
+
+    .TitleTileBox {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .titlesBloc {
+        flex-wrap: wrap;
+    }
+
+    .imgTitle {
+        width: 100%;
+    }
+
+    .mobileAndCarRepetishionBlocs {
+        flex-wrap: wrap;
+    }
+
+    .imgLit {
+        width: 100%;
+    }
+
+    .imgLitFirst {
+        margin-bottom: 16px;
+    }
+
+    .footer {
+        margin: 0;
+    }
+
+    .topMainBloc {
+        margin: 16px;
+    }
+
+    .h3Footer {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .pMainFooter {
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        text-align: center;
+        letter-spacing: 0.05em;
+    }
+
+    .list {
+        margin: 16px;
+    }
+
+    .bottomMainBloc {
+        margin: 16px 0;
+    }
+
+    .list > li {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+
+    .Rights {
+        text-align: center;
+        padding-bottom: 16px;
+    }
+}

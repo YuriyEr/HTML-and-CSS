@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.conteiner {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.topLine {
+    display: flex;
+    align-items: center;
+    margin: 34px 113px;
+    justify-content: space-between;
+}
+
+.contactUs {
+    background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactUsTitle {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-top: 52px;
+}
+
+.contactText {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 293px;
+    margin-right: 293px;
+    margin-bottom: 52px;
+}
+
+.titlesSendAndAdress {
+    display: flex;
+    justify-content: center;
+    margin: 56px auto;
+    flex-wrap: wrap;
+}
+
+.sendUs {
+    min-width: 501px;
+}
+
+.address {
+    margin-right: 101px;
+}
+
+.imgContact {
+    max-width: 300.31px;
+    margin-top: 56px;
+}
+
+.AdressSTR {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.AdressText, .listCont {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+    list-style: none;
+}
+
+.emailCont > li {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    list-style: none;
+}
+
+.sendUs {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.formSend {
+    display: flex;
+    flex-direction: column;
+    margin: auto 56px;
+}
+
+.bottomBloc {
+    display: inline;
+    flex-wrap: wrap;
+}
+
+.bottonTextArea {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.map {
+    height: 480px;
+    display: flex;
+    margin: 56px 213px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.mapBloc {
+    width: 100%;
+}
+
+.footer {
+    background: #316099;
+    display: flex;
+    flex-direction: column;
+    padding-left: 113px;
+    padding-right: 113px;
+}
+
+.footerName {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 91px;
+}
+
+.footerText {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-top: 32px;
+    padding-bottom: 96px;
+}
+
+.listBottom {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+}
+
+.listBottom > li {
+    width: 100%;
+}
+
+.topJ, .bottomBoxFooter{
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-top: 20px;
+}
+
+.Right {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-top: 64px;
+}
+
+@media (max-width: 768px) {
+    .topLine {
+        margin: 15px 30px;
+    }
+
+    .conteiner > * {
+        margin: 64px 0;
+    }
+
+    .contactUsTitle {
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 74px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        width: 100%;
+    }
+
+    .contactText {
+        width: 100%;
+    }
+
+    .address {
+        margin-right: 0;
+        padding-bottom: 64px;
+    }
+
+    .bottomBloc {
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .map {
+        height: 392px;
+        display: flex;
+        margin: 0;
+        margin-bottom: 64px;
+        justify-content: center;
+        border-radius: 0;
+    }
+
+    .footerName {
+        padding-top: 64px;
+        font-size: 36px;
+        line-height: 46px;  
+        letter-spacing: 0.05em;
+    }
+
+    .listBottom {
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+    .listBottom > * {
+        padding-bottom: 25px;
+    }
+
+
+}
